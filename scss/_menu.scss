@@ -1,0 +1,36 @@
+body {
+    background: $colorfondo;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+
+    #menu {
+    li > a {
+      font-size: 18px;
+      font-weight: bold;
+      color: $colortexto;
+    }
+  
+    form > button {
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }
+  
+  .carousel-inner {
+    max-height: 39rem;
+  }
+  
+  .carousel:hover {
+    transform: scale(1.05);
+  }
+
+  html {
+    height: 100%;
+}
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import "variables","mixin","menu","footer","mediaqueris";
+
+
+
+//contacto//
+#contenedor-formulario {
+    position: relative;
+    top: 90%;
+    margin-top: 5%;
+    transform: translate((-50%) 50%);
+    background: $colorformularios;
+    border-radius: 5px;
+    max-width: 500px;
+  }
+  
+  #titulo-formulario {
+    color: $colortexto;
+  }
+  
+  //boton detalles//
+  .botonDetalles {
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .8rem 2rem;
+    border-radius: 50rem;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    font-size: 1.8rem;
+    color: $colortexto;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    transition: all .3s linear;
+  
+    &:hover {
+      transform: scale(1.05);
+      text-transform: lowercase;
+      background-image: linear-gradient(110.3deg, rgba(72, 85, 99, 1) 8.8%, rgba(127, 146, 166, 1) 95.1%);
+      color: #cfd9df;
+    }
+  }
+  // // 
+
+
+
+  //detalles//
+  .page-content {
+    display: flex;
+    flex-wrap: wrap;
+    border: $colortexto;
+    justify-content: space-evenly;
+  }
+  
+  .product-container {
+    margin: 20px;
+    padding: 2px 16px;
+    box-shadow: 0 16px 16px 0 rgba(103, 49, 241, 0.2);
+    background-color: white;
+  
+    &:hover {
+      box-shadow: 0 8px 16px 0 rgba(52, 191, 255, 0.96);
+      transform: scale(1.05);
+    }
+  
+    img {
+      width: 300px;
+    }
+  }
+  // // 
+  
+  //videos//
+  .videos :hover {
+    transform: scale(1.05);
+  }
+  
+
+  
+  
+
+
+
+
